@@ -68,7 +68,7 @@ Std_ReturnType SystemCLI_Init() {
 
     cli_uart2 = embeddedCliNew(config);
     if (cli_uart2 == NULL) {
-        return E_ERROR;
+        return ERROR_FAIL;
     }
     cli_uart2->writeChar = writeCharToCli_UART2;
 
@@ -91,14 +91,14 @@ Std_ReturnType SystemCLI_Init() {
 
     cli_net = embeddedCliNew(config);
     if (cli_net == NULL) {
-        return E_ERROR;
+        return ERROR_FAIL;
     }
     cli_net->writeChar = writeCharToCli_Net;
 
     // CLI has now been initialized
     cliIsReady = true;
 
-    return E_OK;
+    return ERROR_OK;
 }
 
 /*************************************************
