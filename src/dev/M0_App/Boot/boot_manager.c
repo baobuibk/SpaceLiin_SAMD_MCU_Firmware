@@ -53,7 +53,7 @@ Std_ReturnType BootManager_SystemInit(void){
     SystemCLI_Init();
 
 
-    return ERROR_OK;
+    return E_OK;
 }
 
 void BootManager_SystemStart(void){

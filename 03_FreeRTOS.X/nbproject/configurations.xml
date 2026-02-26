@@ -259,91 +259,12 @@
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="M2_BSP" displayName="M2_BSP" projectFiles="true">
-            <logicalFolder name="BSP_Board" displayName="BSP_Board" projectFiles="true">
-              <itemPath>../src/dev/M2_BSP/BSP_Board/board.h</itemPath>
-              <itemPath>../src/dev/M2_BSP/BSP_Board/board_v71_iss.h</itemPath>
-              <itemPath>../src/dev/M2_BSP/BSP_Board/board_v71_xult.h</itemPath>
-              <itemPath>../src/dev/M2_BSP/BSP_Board/bsp_core.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="BSP_Laser" displayName="BSP_Laser" projectFiles="true">
-              <itemPath>../src/dev/M2_BSP/BSP_Laser/bsp_laser.h</itemPath>
-            </logicalFolder>
-            <logicalFolder name="BSP_Photodiode"
-                           displayName="BSP_Photodiode"
-                           projectFiles="true">
-            </logicalFolder>
-            <logicalFolder name="BSP_RS485" displayName="BSP_RS485" projectFiles="true">
-            </logicalFolder>
             <logicalFolder name="UART" displayName="UART" projectFiles="true">
               <itemPath>../src/dev/M2_BSP/UART/uart_dma.h</itemPath>
               <itemPath>../src/dev/M2_BSP/UART/uart_irq.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="M3_Driver" displayName="M3_Driver" projectFiles="true">
-            <logicalFolder name="components" displayName="components" projectFiles="true">
-              <logicalFolder name="dio" displayName="dio" projectFiles="true">
-                <logicalFolder name="dummy" displayName="dummy" projectFiles="true">
-                </logicalFolder>
-                <logicalFolder name="nxp" displayName="nxp" projectFiles="true">
-                </logicalFolder>
-                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
-                </logicalFolder>
-                <itemPath>../src/dev/M3_Driver/components/dio/do.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
-                <logicalFolder name="dummy" displayName="dummy" projectFiles="true">
-                </logicalFolder>
-                <logicalFolder name="nxp" displayName="nxp" projectFiles="true">
-                </logicalFolder>
-                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
-                </logicalFolder>
-                <itemPath>../src/dev/M3_Driver/components/i2c/i2c_io.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="spi" displayName="spi" projectFiles="true">
-                <logicalFolder name="dummy" displayName="dummy" projectFiles="true">
-                </logicalFolder>
-                <logicalFolder name="nxp" displayName="nxp" projectFiles="true">
-                </logicalFolder>
-                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
-                </logicalFolder>
-                <itemPath>../src/dev/M3_Driver/components/spi/spi_io.h</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-            <logicalFolder name="devices" displayName="devices" projectFiles="true">
-              <logicalFolder name="AD4114" displayName="AD4114" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/AD4114/ad4114.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="ADG1414BR" displayName="ADG1414BR" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/ADG1414BR/adg1414.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="AS3004204" displayName="AS3004204" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/AS3004204/as3004.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="BMP390" displayName="BMP390" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/BMP390/bmp390.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="LT8722" displayName="LT8722" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/LT8722/lt8722.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="MCP4902" displayName="MCP4902" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/MCP4902/mcp4902.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="ntc" displayName="ntc" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/ntc/ntc.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="pca9685" displayName="pca9685" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/pca9685/pca9685.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="RV3129" displayName="RV3129" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/RV3129/rv3129.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="slf3s_flow" displayName="slf3s_flow" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/slf3s_flow/slf3s_flow.h</itemPath>
-              </logicalFolder>
-              <logicalFolder name="tca6416" displayName="tca6416" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/tca6416/tca6416.h</itemPath>
-              </logicalFolder>
-            </logicalFolder>
+          <logicalFolder name="M3_Devices" displayName="M3_Devices" projectFiles="true">
           </logicalFolder>
           <logicalFolder name="M4_Middlewares"
                          displayName="M4_Middlewares"
@@ -644,11 +565,6 @@
                   </logicalFolder>
                 </logicalFolder>
               </logicalFolder>
-            </logicalFolder>
-            <logicalFolder name="Os" displayName="Os" projectFiles="true">
-              <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
-              </logicalFolder>
-              <itemPath>../src/dev/M4_Middlewares/Os/os_hal.h</itemPath>
             </logicalFolder>
             <logicalFolder name="TinyUSB" displayName="TinyUSB" projectFiles="true">
               <logicalFolder name="class" displayName="class" projectFiles="true">
@@ -1029,8 +945,16 @@
         <logicalFolder name="dev" displayName="dev" projectFiles="true">
           <logicalFolder name="M0_App" displayName="M0_App" projectFiles="true">
             <logicalFolder name="AppOS" displayName="AppOS" projectFiles="true">
+              <logicalFolder name="App_1_Fault" displayName="App_1_Fault" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder name="App_1_Monitor"
+                             displayName="App_1_Monitor"
+                             projectFiles="true">
+              </logicalFolder>
               <logicalFolder name="App_3_CLI" displayName="App_3_CLI" projectFiles="true">
                 <itemPath>../src/dev/M0_App/AppOS/App_3_CLI/app_cli.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="App_3_Comm" displayName="App_3_Comm" projectFiles="true">
               </logicalFolder>
               <logicalFolder name="App_3_Network"
                              displayName="App_3_Network"
@@ -1054,6 +978,10 @@
             </logicalFolder>
             <logicalFolder name="Boot" displayName="Boot" projectFiles="true">
               <itemPath>../src/dev/M0_App/Boot/boot_manager.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="Config" displayName="Config" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="NoOS" displayName="NoOS" projectFiles="true">
             </logicalFolder>
             <logicalFolder name="OS" displayName="OS" projectFiles="true">
               <itemPath>../src/dev/M0_App/OS/os.c</itemPath>
@@ -1085,78 +1013,12 @@
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="M2_BSP" displayName="M2_BSP" projectFiles="true">
-            <logicalFolder name="BSP_Board" displayName="BSP_Board" projectFiles="true">
-              <itemPath>../src/dev/M2_BSP/BSP_Board/bsp_core.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="BSP_Laser" displayName="BSP_Laser" projectFiles="true">
-              <itemPath>../src/dev/M2_BSP/BSP_Laser/bsp_laser.c</itemPath>
-            </logicalFolder>
-            <logicalFolder name="BSP_Photodiode"
-                           displayName="BSP_Photodiode"
-                           projectFiles="true">
-            </logicalFolder>
-            <logicalFolder name="BSP_RS485" displayName="BSP_RS485" projectFiles="true">
-            </logicalFolder>
             <logicalFolder name="UART" displayName="UART" projectFiles="true">
               <itemPath>../src/dev/M2_BSP/UART/uart_dma.c</itemPath>
               <itemPath>../src/dev/M2_BSP/UART/uart_irq.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="M3_Driver" displayName="M3_Driver" projectFiles="true">
-            <logicalFolder name="components" displayName="components" projectFiles="true">
-              <logicalFolder name="dio" displayName="dio" projectFiles="true">
-                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
-                  <itemPath>../src/dev/M3_Driver/components/dio/samv71/samv71_do.c</itemPath>
-                </logicalFolder>
-              </logicalFolder>
-              <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
-                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
-                  <itemPath>../src/dev/M3_Driver/components/i2c/samv71/samv71_i2c_io.c</itemPath>
-                </logicalFolder>
-                <itemPath>../src/dev/M3_Driver/components/i2c/i2c_io.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="spi" displayName="spi" projectFiles="true">
-                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
-                  <itemPath>../src/dev/M3_Driver/components/spi/samv71/samv71_spi_io.c</itemPath>
-                </logicalFolder>
-                <itemPath>../src/dev/M3_Driver/components/spi/spi_io.c</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-            <logicalFolder name="devices" displayName="devices" projectFiles="true">
-              <logicalFolder name="AD4114" displayName="AD4114" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/AD4114/ad4114.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="ADG1414BR" displayName="ADG1414BR" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/ADG1414BR/adg1414.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="AS3004204" displayName="AS3004204" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/AS3004204/as3004.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="BMP390" displayName="BMP390" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/BMP390/bmp390.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="LT8722" displayName="LT8722" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/LT8722/lt8722.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="MCP4902" displayName="MCP4902" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/MCP4902/mcp4902.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="ntc" displayName="ntc" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/ntc/ntc.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="pca9685" displayName="pca9685" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/pca9685/pca9685.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="RV3129" displayName="RV3129" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/RV3129/rv3129.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="slf3s_flow" displayName="slf3s_flow" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/slf3s_flow/sl3s_flow.c</itemPath>
-              </logicalFolder>
-              <logicalFolder name="tca6416" displayName="tca6416" projectFiles="true">
-                <itemPath>../src/dev/M3_Driver/devices/tca6416/tca6416.c</itemPath>
-              </logicalFolder>
-            </logicalFolder>
+          <logicalFolder name="M3_Devices" displayName="M3_Devices" projectFiles="true">
           </logicalFolder>
           <logicalFolder name="M4_Middlewares"
                          displayName="M4_Middlewares"
@@ -1216,6 +1078,67 @@
                 <itemPath>../src/dev/M4_Middlewares/LwIP/api/netifapi.c</itemPath>
                 <itemPath>../src/dev/M4_Middlewares/LwIP/api/sockets.c</itemPath>
                 <itemPath>../src/dev/M4_Middlewares/LwIP/api/tcpip.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="apps" displayName="apps" projectFiles="true">
+                <logicalFolder name="altcp_tls" displayName="altcp_tls" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/altcp_tls/altcp_tls_mbedtls.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/altcp_tls/altcp_tls_mbedtls_mem.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="http" displayName="http" projectFiles="true">
+                  <logicalFolder name="fs" displayName="fs" projectFiles="true">
+                    <logicalFolder name="img" displayName="img" projectFiles="true">
+                    </logicalFolder>
+                  </logicalFolder>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/altcp_proxyconnect.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/fs.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/httpd.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/http/http_client.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="lwiperf" displayName="lwiperf" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/lwiperf/lwiperf.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mdns" displayName="mdns" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/mdns/mdns.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="mqtt" displayName="mqtt" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/mqtt/mqtt.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="netbiosns" displayName="netbiosns" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/netbiosns/netbiosns.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="smtp" displayName="smtp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/smtp/smtp.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="snmp" displayName="snmp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmpv3.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmpv3_mbedtls.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_asn1.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_core.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_icmp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_interfaces.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_ip.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_snmp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_system.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_tcp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_mib2_udp.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_msg.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_netconn.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_pbuf_stream.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_raw.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_scalar.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_snmpv2_framework.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_snmpv2_usm.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_table.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_threadsync.c</itemPath>
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/snmp/snmp_traps.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="sntp" displayName="sntp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/sntp/sntp.c</itemPath>
+                </logicalFolder>
+                <logicalFolder name="tftp" displayName="tftp" projectFiles="true">
+                  <itemPath>../src/dev/M4_Middlewares/LwIP/apps/tftp/tftp_server.c</itemPath>
+                </logicalFolder>
               </logicalFolder>
               <logicalFolder name="core" displayName="core" projectFiles="true">
                 <logicalFolder name="ipv4" displayName="ipv4" projectFiles="true">
@@ -1331,11 +1254,6 @@
                 <itemPath>../src/dev/M4_Middlewares/LwIP/netif/lowpan6_common.c</itemPath>
                 <itemPath>../src/dev/M4_Middlewares/LwIP/netif/slipif.c</itemPath>
                 <itemPath>../src/dev/M4_Middlewares/LwIP/netif/zepif.c</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-            <logicalFolder name="Os" displayName="Os" projectFiles="true">
-              <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
-                <itemPath>../src/dev/M4_Middlewares/Os/FreeRTOS/os_freertos.c</itemPath>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="TinyUSB" displayName="TinyUSB" projectFiles="true">
@@ -1559,6 +1477,10 @@
               <itemPath>../src/dev/M5_Utils/Tick/tick.c</itemPath>
             </logicalFolder>
           </logicalFolder>
+          <logicalFolder name="M6_Tools" displayName="M6_Tools" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder name="M7_Tests" displayName="M7_Tests" projectFiles="true">
+          </logicalFolder>
         </logicalFolder>
         <logicalFolder name="packs" displayName="packs" projectFiles="true">
           <logicalFolder name="ATSAMV71Q21B_DFP"
@@ -1596,7 +1518,7 @@
         <targetDevice>ATSAMV71Q21B</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
@@ -1649,7 +1571,7 @@
         <property key="exclude-floating-point" value="false"/>
         <property key="expand-pragma-config" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/ATSAMV71Q21B_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;..\src\config\default;..\src\dev;..\src\dev\M0_App\OS;..\src\dev\M4_Middlewares\Config\FreeRTOS_Config;..\src\dev\M4_Middlewares\FreeRTOS\FreeRTOSv20240604-LTS\include;..\src\dev\M4_Middlewares\FreeRTOS\FreeRTOSv20240604-LTS\portable\GCC\ARM_CM7\r0p1;..\src\dev\M4_Middlewares\LwIP\include;..\src\dev\M4_Middlewares\TinyUSB\common;..\src\dev\M4_Middlewares\TinyUSB\device;..\src\dev\M4_Middlewares\TinyUSB\portable\microchip\samx7x;..\src\dev\M4_Middlewares\TinyUSB;..\src\dev\M4_Middlewares\Config\LwIP_Config;..\src\dev\M4_Middlewares\Config\TinyUSB_Config;..\src\dev\M3_Driver\components;..\src\dev\M3_Driver\components\dio;..\src\dev\M3_Driver\components\i2c;..\src\dev\M3_Driver\components\spi;..\src\dev\M4_Middlewares\Os;..\src\dev\M5_Utils\Define;..\src\dev\M2_BSP\BSP_Board;..\src\dev\M3_Driver\devices\AD4114;..\src\dev\M3_Driver\devices\ADG1414BR;..\src\dev\M3_Driver\devices\AS3004204;..\src\dev\M3_Driver\devices\BMP390;..\src\dev\M3_Driver\devices\LT8722;..\src\dev\M3_Driver\devices\MCP4902;..\src\dev\M3_Driver\devices\ntc;..\src\dev\M3_Driver\devices\pca9685;..\src\dev\M3_Driver\devices\RV3129;..\src\dev\M3_Driver\devices\slf3s_flow;..\src\dev\M3_Driver\devices\tca6416"/>
+                  value="../src;../src/config/default;../src/packs/ATSAMV71Q21B_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;..\src\config\default;..\src\dev;..\src\dev\M0_App\OS;..\src\dev\M4_Middlewares\Config\FreeRTOS_Config;..\src\dev\M4_Middlewares\FreeRTOS\FreeRTOSv20240604-LTS\include;..\src\dev\M4_Middlewares\FreeRTOS\FreeRTOSv20240604-LTS\portable\GCC\ARM_CM7\r0p1;..\src\dev\M4_Middlewares\LwIP\include;..\src\dev\M4_Middlewares\TinyUSB\common;..\src\dev\M4_Middlewares\TinyUSB\device;..\src\dev\M4_Middlewares\TinyUSB\portable\microchip\samx7x;..\src\dev\M4_Middlewares\TinyUSB;..\src\dev\M4_Middlewares\Config\LwIP_Config;..\src\dev\M4_Middlewares\Config\TinyUSB_Config"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -1840,6 +1762,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="400000-5fffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="F:/F00_Workspace/06_SAT_SAM/MCU/MainProject/03_FREERTOS/03_FreeRTOS.X/debug/default/03_FreeRTOS_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
