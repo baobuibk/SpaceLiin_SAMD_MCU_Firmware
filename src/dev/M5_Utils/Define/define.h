@@ -17,10 +17,16 @@ extern "C" {
 
 typedef enum
 {
-    E_OK       = 0x00U,  /* Operation successful */
-    E_ERROR    = 0x01U,  /* Operation failed */
-    E_BUSY     = 0x02U,  /* Resource is busy */
-    E_TIMEOUT  = 0x03U   /* Operation timed out */
+    ERROR_OK       = 0x00U,  /* Operation successful */
+    ERROR_FAIL ,  /* Operation failed */
+    ERROR_BUSY ,  /* Resource is busy */
+    ERROR_TIMEOUT ,  /* Operation timed out */
+    ERROR_INVALID_PARAM,
+    ERROR_NOT_READY,
+    ERROR_I2C_NACK,
+    ERROR_I2C_BUS,
+    ERROR_I2C_TIMEOUT,
+    ERROR_SPI
 } Std_ReturnType;
 
 #ifndef NULL
